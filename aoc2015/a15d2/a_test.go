@@ -15,7 +15,6 @@ func Test_day(t *testing.T) {
 	paper, ribbon := day()
 	require.Equal(t, 1586300, paper)
 	require.Equal(t, 3737498, ribbon)
-	t.Fail()
 }
 
 func day() (paper, ribbon int) {
