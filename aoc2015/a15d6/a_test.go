@@ -34,9 +34,7 @@ func Test_day(t *testing.T) {
 			totalBrightness += brightness
 		}
 	}
-	require.Equal(t, 0, totalBrightness)
-
-	t.Fail()
+	require.Equal(t, 15343601, totalBrightness)
 }
 
 type Point struct {
