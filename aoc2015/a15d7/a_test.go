@@ -1,4 +1,4 @@
-package a15d7_test
+package a15d7
 
 import (
 	"bufio"
